@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable ipynb': 'ipynb:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'ipynb'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'ipynb:toggle' }
+      ]
+    ]
+  }
+]
