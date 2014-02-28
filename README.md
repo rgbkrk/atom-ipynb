@@ -1,4 +1,4 @@
-# ipynb package
+# IPython Notebook Integration with ATOM
 
 ## WORK IN PROGRESS
 

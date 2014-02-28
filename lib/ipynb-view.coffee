@@ -4,7 +4,7 @@ module.exports =
 class IpynbView extends View
   @content: ->
     @div class: 'ipynb overlay from-top', =>
-      @div "The Ipynb package is Alive! It's ALIVE!", class: "message"
+      @div "Activated ipynb", class: "message"
 
   initialize: (serializeState) ->
     atom.workspaceView.command "ipynb:toggle", => @toggle()
@@ -18,7 +18,3 @@ class IpynbView extends View
 
   toggle: ->
     console.log "IpynbView was toggled!"
-    if @hasParent()
-      @detach()
-    else
-      atom.workspaceView.append(this)
