@@ -1,10 +1,5 @@
-# IPython Notebook Integration with ATOM
+# IPython Notebook meta-package
 
-Connect to IPython kernels using atom.
+There's nothing to see here folks.
 
-**Heavy work in progress**
-
-Requires IPython 2.0
-
-The focus here will be to run a selection of code on an IPython kernel using
-IPython's own javascript libraries.
+Go check out [Hydrogen](https://atom.io/packages/hydrogen)!
