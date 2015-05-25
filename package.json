@@ -3,16 +3,10 @@
   "main": "./lib/ipynb",
   "version": "0.1.1",
   "private": true,
-  "description": "Connect to IPython kernels using atom",
-  "activationCommands": [
-    "ipynb:toggle"
-  ],
+  "description": "Reserved package",
   "repository": "https://github.com/rgbkrk/atom-ipynb",
   "license": "Apache 2",
   "engines": {
-    "atom": ">0.50.0"
-  },
-  "dependencies": {
-    "jquery": ">=2.1"
+    "atom": ">0.151.0"
   }
 }
